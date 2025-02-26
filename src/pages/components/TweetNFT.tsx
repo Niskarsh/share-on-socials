@@ -23,9 +23,9 @@ const TweetNFT: React.FC<TweetNFTProps> = ({ txHash }) => {
             <FacebookShareButton url={explorerUrl} quote={tweetText} hashtag="Monad" >
                 <FacebookIcon size={40} round/>
             </FacebookShareButton>
-            <InstapaperShareButton url={explorerUrl} description={tweetText} >
+            {/* <InstapaperShareButton url={explorerUrl} description={tweetText} >
                 <InstagramIcon size={40} />
-            </InstapaperShareButton>
+            </InstapaperShareButton> */}
             {/* <InstapaperShareButton url={explorerUrl} description={tweetText} >// No Instagram
                 <InstagramIcon size={40} round />
             </InstapaperShareButton> */}
