@@ -1,5 +1,7 @@
 import React from 'react';
-import { TwitterShareButton, TwitterIcon, FacebookShareButton, FacebookIcon, InstapaperShareButton, InstagramIcon, RedditShareButton, RedditIcon, TelegramShareButton, TelegramIcon, LinkedinShareButton, LinkedinIcon, WhatsappShareButton, WhatsappIcon } from 'next-share';
+import { TwitterShareButton, TwitterIcon, FacebookShareButton, FacebookIcon,
+    // InstapaperShareButton, InstagramIcon,
+    RedditShareButton, RedditIcon, TelegramShareButton, TelegramIcon, LinkedinShareButton, LinkedinIcon, WhatsappShareButton, WhatsappIcon } from 'next-share';
 
 interface TweetNFTProps {
     txHash: string;
